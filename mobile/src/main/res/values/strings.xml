@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Represent!</string>
+    <string name="app_subtitle">Know who represents you</string>
+    <string name="placeAddr">Please select a location</string>
+    <string name="placeName">John Anonymous Doe</string>
+    <string name="abbr_rep">Rep.</string>
+    <string name="republican">Republican</string>
+    <string name="democrat">Democrat</string>
+    <string name="senator">Senator</string>
+    <string name="abbr_dem">Dem.</string>
+    <string name="sen">Senator</string>
+    <string name="cong_m">Congressman</string>
+    <string name="cong_w">Congresswoman</string>
+    <string name="flagIconStr">flagIcon</string>
+    <string name="feedPlaceSummary">New post by %1$s</string>
+    <string name="feedPlaceContent">Show support for the Party!!</string>
+</resources>

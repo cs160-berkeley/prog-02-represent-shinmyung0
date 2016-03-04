@@ -1,0 +1,82 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="0dp"
+    android:paddingLeft="0dp"
+    android:paddingRight="0dp"
+    android:paddingTop="0dp"
+    tools:context="things.shiny.represent.PhoneMainActivity$PlaceholderFragment"
+    android:background="#F5F5F5">
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignEnd="@+id/imageView"
+        android:id="@+id/linearLayout"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="0dp"
+        android:background="#ffffff"
+        android:paddingTop="5dp"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:weightSum="1"
+        android:elevation="10dp"
+        android:paddingBottom="5dp">
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="fill_parent"
+            android:id="@+id/imageView"
+            android:src="@drawable/flag"
+            android:layout_marginRight="20dp"
+            android:contentDescription="@string/flagIconStr" />
+
+        <EditText
+            android:layout_width="270dp"
+            android:layout_height="match_parent"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:id="@+id/feedSearch"
+            android:layout_weight="0.88"
+            android:textColor="#000000"
+            android:gravity="center_vertical"
+            android:backgroundTint="#EB5757"
+            android:textSize="16dp"
+            android:inputType="text" />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_search"
+            android:id="@+id/searchButton"
+            android:contentDescription="searchIcon"
+            android:backgroundTint="#00ffffff" />
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/feedScrollView"
+        android:layout_below="@+id/linearLayout"
+        android:layout_alignStart="@+id/linearLayout"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:fillViewport="false" >
+
+
+        <android.support.v7.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/feedRecycleView">
+
+        </android.support.v7.widget.RecyclerView>
+
+
+    </ScrollView>
+
+
+</RelativeLayout>
