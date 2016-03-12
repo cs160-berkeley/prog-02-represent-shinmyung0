@@ -10,7 +10,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat">
         <activity
-            android:name=".PhoneMainActivity"
+            android:name=".activity.PhoneMainActivity"
             android:label="@string/app_name"
             android:theme="@style/Theme.AppCompat.NoActionBar">
             <intent-filter>
@@ -21,7 +21,7 @@
         </activity>
 
         <activity
-            android:name=".PhoneProfileActivity"
+            android:name=".activity.PhoneProfileActivity"
             android:label="@string/app_name"
             android:theme="@style/Theme.AppCompat.NoActionBar">
             <intent-filter>
@@ -31,14 +31,21 @@
             </intent-filter>
         </activity>
 
-        <service android:name=".PhoneToWatchService" />
+        <service android:name=".service.PhoneToWatchService" />
         <!-- Listeners are special services that need to be declared like below, as BIND_LISTENER -->
-        <service android:name=".PhoneListenerService"
+        <service android:name=".service.PhoneListenerService"
             android:label="@string/app_name">
             <intent-filter>
                 <action android:name="com.google.android.gms.wearable.BIND_LISTENER" />
             </intent-filter>
         </service>
+
+       <meta-data
+            android:name="io.fabric.ApiKey"
+            android:value="41e10325544315fd729e17f8b216c5ace4c78782" />
+
     </application>
 
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
 </manifest>

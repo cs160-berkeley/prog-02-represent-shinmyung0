@@ -6,7 +6,7 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="things.shiny.represent.PhoneMainActivity$PlaceholderFragment"
+    tools:context=".activity.PhoneMainActivity$PlaceholderFragment"
     android:background="#2F80ED">
 
 
@@ -56,7 +56,9 @@
         android:background="#ffffff"
         android:textColor="#000000"
         android:paddingStart="10dp"
-        android:paddingEnd="25dp" />
+        android:paddingEnd="25dp"
+        android:hint="Zip Code"
+        android:textColorHint="#a3a3a3" />
 
     <ImageButton
         android:layout_width="22dp"

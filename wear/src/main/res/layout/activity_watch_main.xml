@@ -8,7 +8,7 @@
     android:layout_height="match_parent"
     app:rectLayout="@layout/rect_activity_watch_main"
     app:roundLayout="@layout/round_activity_watch_main"
-    tools:context="things.shiny.represent.WatchMainActivity"
+    tools:context=".activity.WatchMainActivity"
     tools:deviceIds="wear">
 
 
