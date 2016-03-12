@@ -92,7 +92,6 @@ public class RepresentativeViewFragment extends Fragment {
 
     private String getLocationString() {
 
-
         Location location = RepresentDataStore.getCurrentLocation();
         if (location != null) {
             return GeoLocationHandler.getAddressString(location, getContext());
