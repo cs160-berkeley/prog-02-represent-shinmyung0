@@ -22,7 +22,7 @@ do they stand for, and what are they saying? These are all things that we should
 
 ## Authors
 
-Shin Yoon ([your_email@berkeley.edu](mailto:your_email@berkeley.edu))
+Shin Yoon ([shinmyung0@berkeley.edu](mailto:shinmyung0@berkeley.edu))
 
 ## Demo Video
 
